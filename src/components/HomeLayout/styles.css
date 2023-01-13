@@ -1,0 +1,130 @@
+.homepage {
+  letter-spacing: 0.75px;
+  font-weight: 400;
+  color: var(--ifm-color-emphasis-700);
+  /* background-color: var(--ifm-color-emphasis-100); */
+  overflow: auto;
+}
+
+/* :root[data-theme='dark'] .homepage {
+  background-color: var(--ifm-color-emphasis-0);
+} */
+
+.homepage__section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.homepage__container {
+  margin: 0 8rem;
+  width: 100%;
+  max-width: var(--ifm-container-width);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+}
+
+@media (max-width: 996px) {
+  .homepage__container {
+    margin: 0 2rem;
+  }
+}
+
+.homepage__description {
+  font-style: italic;
+  width: 70%;
+  text-align: center;
+}
+
+@media (max-width: 996px) {
+  .homepage__description {
+    width: 90%;
+  }
+}
+
+.nodes__feature>a {
+  color: var(--ifm-color-emphasis-700);
+}
+
+.nodes__feature>a {
+  color: var(--ifm-color-emphasis-700);
+}
+
+.nodes__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+  gap: 1rem;
+  width: 100%;
+}
+
+@media (max-width: 996px) {
+  .nodes__cards {
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  }
+}
+
+.nodes__card {
+  background-color: var(--ifm-color-emphasis-0);
+  box-shadow: 0 0 5px 0 var(--ifm-color-emphasis-300);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: var(--ifm-global-radius);
+  color: inherit;
+  padding: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+:root[data-theme='dark'] .nodes__card {
+  box-shadow: none;
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.nodes__icon {
+  flex: 0 0 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--ifm-color-emphasis-200);
+  border-radius: var(--ifm-global-radius);
+  fill: var(--ifm-color-emphasis-900);
+}
+
+.nodes__icon>svg {
+  width: 6rem;
+}
+
+@media (max-width: 996px) {
+  .nodes__icon {
+    display: none;
+  }
+}
+
+.nodes__section {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.nodes__header {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.nodes__features {
+  flex: 1 1 0;
+  margin: 1rem 0;
+  padding-left: 1rem;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.nodes__feature {
+  margin: 0.3rem 0;
+}
+
+.nodes__button {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}

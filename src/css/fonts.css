@@ -1,0 +1,49 @@
+/**
+Text fonts
+**/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: Metropolis Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../../static/font/Metropolis-Regular.woff2?v=11) format('woff2'),
+    url(../../static/font/Metropolis-Regular.woff?v=11) format('woff');
+}
+
+@font-face {
+  font-family: Metropolis Light;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../../static/font/Metropolis-Light.woff2?v=11) format('woff2'),
+    url(../../static/font/Metropolis-Light.woff?v=11) format('woff');
+}
+
+@font-face {
+  font-family: Metropolis Medium;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../../static/font/Metropolis-Medium.woff2?v=11) format('woff2'),
+    url(../../static/font/Metropolis-Medium.woff?v=11) format('woff');
+}
+
+@font-face {
+  font-family: Metropolis Semi Bold;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../../static/font/Metropolis-SemiBold.woff2?v=11) format('woff2'),
+    url(../../static/font/Metropolis-SemiBold.woff?v=11) format('woff');
+}
+
+@font-face {
+  font-family: Metropolis Bold;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../../static/font/Metropolis-Bold.woff2?v=11) format('woff2'),
+    url(../../static/font/Metropolis-Bold.woff?v=11) format('woff');
+}
